@@ -1,0 +1,8 @@
+[build]
+publish = "public"
+command = "git clone git clone https://github.com/salsysd/hugo-assembly.git themes&&hugo"
+
+[context.production.environment]
+HUGO_VERSION = "0.51"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
